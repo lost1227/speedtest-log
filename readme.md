@@ -5,6 +5,7 @@ Logs speedtest data to a website
 Prerequisites:
   1. Webserver running mysql, php, and apache
   2. Local computer running python (could be a raspberry pi)
+ 
 Directions:
   1. In the webroot of the webserver, make a folder to hold the php files
   2. In the mysql server, make a database and a table for the data. Edit the php files to match. The table should contain the following 5 rows: id (int, primary key), download (int), upload (int), ping (int), time (varchar(26))
